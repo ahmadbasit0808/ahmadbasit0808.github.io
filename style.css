@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+body{
+    background-color: rgb(3, 3, 61);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a:hover{
+    color: rgb(156, 156, 236);
+    font-size: 1.02rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+main hr{
+    border: 0;
+    height: 1.5px;
+    background-color: red;
+    margin: 50px 40px;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px 40px;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    font-size: 2rem;
+}
+.rightSection{
+   
+}
+.rightSection img{
+    width: 80%;
+    margin: 50px;
+}
+
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection h1{
+    font-size: 2rem;
+    margin: 0 40px;
+}
+.secondSection .box{
+    background-color: white;
+    width: 180vh;
+    height: 2px;
+    margin: 500px 100px;
+    margin-top: 90px;
+    display: flex;
+}
+.secondSection .vertical{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 140px;
+}
+.vertical .flex{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    top: -80px;
+    left: -60px;  
+}
+.vertical .base{
+    position: relative;
+    width: 150px;
+    font-size: 12px;
+    color: grey;
+    margin: 10px 0;
+}
+.secondSection .twitter{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 140px;
+}
+.twitter .flex1{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    top: -80px;
+    left: -60px;
+}
+.twitter .base1{
+    position: relative;
+    width: 150px;
+    font-size: 12px;
+    color: grey;
+    margin: 10px 0;
+}
+.secondSection .instagram{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 140px;
+}
+.instagram .flex2{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    top: -80px;
+    left: -60px;
+}
+.instagram .base2{
+    position: relative;
+    width: 150px;
+    font-size: 12px;
+    color: grey;
+    margin: 10px 0;
+}
+.secondSection .youtube{
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 140px;
+}
+.youtube .flex3{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    top: -100px;
+    left: -60px; 
+}
+.youtube .base3{
+    position: relative;
+    width: 150px;
+    font-size: 12px;
+    margin: 50px 0;
+    color: grey;
+}
+.youtube .title3{
+    margin: -40px 0;
+}
+
+.purple{
+    color: brown;
+}
+.text-grey{
+    color: grey;
+    margin: 0 30px;
+}
+
+#element{
+    color:rgb(223, 82, 223) ;
+}
+
+
+
+footer{
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer img{
+    height: 100px;
+    width: 100px;
+}
+footer .footer-text{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+.footer > div{
+    width: 150px;
+}
